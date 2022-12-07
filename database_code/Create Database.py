@@ -128,7 +128,3 @@ df7.write.format("delta").mode("overwrite").saveAsTable("belvo_tables.deals")
 # MAGIC %sql
 # MAGIC -- CHeck tables in a database
 # MAGIC SHOW TABLES IN belvo_tables
-
-# COMMAND ----------
-
-
