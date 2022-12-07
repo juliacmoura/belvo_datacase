@@ -1,18 +1,18 @@
 -- Databricks notebook source
 with companies_deals_associations as (
-select * from belvo_tables.tables.companies_deals_associations
+select * from belvo_tables.companies_deals_associations
 ),
 
 contacts_deals_associations as (
-select * from belvo_tables.tables.contacts_deals_associations
+select * from belvo_tables.contacts_deals_associations
 ),
 
 companies as (
-select * from belvo_tables.tables.companies
+select * from belvo_tables.companies
 ),
 
 contacts as (
-select * from belvo_tables.tables.contacts
+select * from belvo_tables.contacts
 ),
 
 base as (
